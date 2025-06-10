@@ -398,8 +398,18 @@ font-size: 0.83rem;
     width: 230px;
     height: 280px;
   }
-}
+  
+  .contact-form-container {
+    margin: 0 40px 0 100px;
+    padding: 60px 100px;
+  }
 
+  .contact-form-message {
+  margin: 20px 10px 10px 0;
+  padding: 0;
+  }
+}
+  
 @media screen and (max-width: 768px)  {
   .nav-container {
     flex-direction: column;
@@ -505,7 +515,7 @@ font-size: 0.83rem;
     padding: 60px 50px;
   }
 
-  .contact-form-inputs, .contact-form-message  {
+  .contact-form-inputs, .contact-form-message {
     width: 100%;
   }
 
